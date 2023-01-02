@@ -2,10 +2,10 @@
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
     document.title = "Portfolio | Mawitra";
-    $("#favicon").attr("href", "assets/img/foto/logo.png");
+    $("#favicon").attr("href", "assets/img/foto/p.jpeg");
   } else {
     document.title = "Welcome to My Portfolio";
-    $("#favicon").attr("href", "assets/img/foto/favicon.png");
+    $("#favicon").attr("href", "assets/img/foto/p.jpeg");
   }
 });
 
@@ -136,32 +136,4 @@ window.addEventListener("load", function () {
     body.classList.remove("hidden");
   }, preloadDelay);
 });
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-}
-
 
