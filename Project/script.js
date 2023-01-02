@@ -1,7 +1,7 @@
 // Favicon
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
-    document.title = "Project | Portfolio Erastus HS";
+    document.title = "Project | Portfolio Mawitra";
     $("#favicon").attr("href", "../assets/img/foto/p.jpeg");
   } else {
     document.title = "Welcome to My Portfolio";
