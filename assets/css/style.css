@@ -83,7 +83,7 @@ html::-webkit-scrollbar-thumb:hover {
 
 /*?======================== Navbar start =========================*/
 nav {
-  background-color: #202020;
+  background-color: #000000;
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -566,9 +566,7 @@ section.project {
   min-height: 70vh;
 }
 
-.project .heading span {
-  color: rgb(255, 230, 0);
-}
+
 .project .box-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -588,7 +586,7 @@ section.project {
 .project .box-container .box img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  
 }
 .project .box-container .box .content {
   height: 100%;
@@ -755,7 +753,10 @@ section.project {
 }
 
 /*?======================== Project end =========================*/
-
+section.contact {
+  padding: 1.8rem 13%;
+  min-height: 70vh;
+}
 /*?======================== Footer start =========================*/
 .footer {
   min-height: auto;

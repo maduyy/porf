@@ -47,7 +47,7 @@ html::-webkit-scrollbar-thumb:hover {
 
 /*?======================== Navbar start =========================*/
 nav {
-  background-color: #202020;
+  background-color: #000000;
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -199,7 +199,7 @@ section.project {
 .project .box-container .box img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  
 }
 .project .box-container .box .content {
   height: 100%;
